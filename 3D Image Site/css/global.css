@@ -1,0 +1,21 @@
+body {
+	background: #000;
+}
+
+
+#stage {
+	width: 1024px;
+	height: 768px;
+	position: relative;
+	overflow: hidden;
+	margin: 10px auto 10px auto;
+	border: 1px solid black;
+}
+
+.galleryImage {
+	width: 600px;
+	height: 400px;
+	background-color: #CCC;
+	border: 1px solid white;
+	position: absolute;
+}
