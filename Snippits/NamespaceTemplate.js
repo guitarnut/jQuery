@@ -1,3 +1,4 @@
+//Template for jQuery scripts
 var ScriptName = ScriptName || {};
 
 (function ($, ScriptName) {
