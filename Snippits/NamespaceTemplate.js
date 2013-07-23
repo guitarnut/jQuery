@@ -1,4 +1,5 @@
 //Template for jQuery scripts
+//Call methods via ScriptName.init();
 var ScriptName = ScriptName || {};
 
 (function ($, ScriptName) {
