@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets>
+  <!-- <![CDATA[ ]]> -->
+  <!-- YES/NO QUESTIONS -->
+  <node description="q1" type="QUESTION" xPos="260" yPos="160">
+    <content>
+      <question xPos="0" yPos="0">text_areyouroman.png</question>
+      <option xPos="0" yPos="100" target="q2">button_yes.png</option>
+      <option xPos="220" yPos="100" target="o2">button_no.png</option>
+    </content>
+  </node>
+  <node description="q2" type="QUESTION" xPos="60" yPos="350">
+    <content>
+      <question xPos="0" yPos="0">text_blessedwithcoin.png</question>
+      <option xPos="0" yPos="105" target="q3" targetPath="1">button_yes.png</option>
+      <option xPos="240" yPos="105" target="o1">button_no.png</option>
+      <path xPos="210" yPos="-110">path_abundanceofcoin.png</path>
+    </content>
+  </node>
+  <node description="q3" type="QUESTION" xPos="50" yPos="830">
+    <content>
+      <question xPos="0" yPos="0">text_arroganceofcesar.png</question>
+      <option xPos="220" yPos="110" target="q5">button_yes.png</option>
+      <option xPos="10" yPos="110" target="e1" targetPath="1">button_no.png</option>
+      <image xPos="15" yPos="-130">graphic_2.png</image>
+      <path xPos="15" yPos="-430" option="1">path_arrogance_from_coin.png</path>
+      <path xPos="15" yPos="-260" option="2">path_arrogance_from_politician.png</path>
+    </content>
+  </node>
+  <node description="q4" type="QUESTION" xPos="490" yPos="775">
+    <content>
+      <question xPos="0" yPos="0">text_sidewithrebellion.png</question>
+      <option xPos="205" yPos="100" target="q7" targetPath="2">button_yes.png</option>
+      <option xPos="25" yPos="105" target="e2" targetPath="2">button_no.png</option>
+      <path xPos="-80" yPos="-145" option="1">path_rebellion_from_citizen.png</path>
+      <path xPos="-28" yPos="-230" option="2">path_rebellion_from_slave.png</path>
+    </content>
+  </node>
+  <node description="q5" type="QUESTION" xPos="70" yPos="1020">
+    <content>
+      <question xPos="0" yPos="0">text_godsfavoryouwithluck.png</question>
+      <option xPos="30" yPos="120" target="e1" targetPath="2">button_yes.png</option>
+      <option xPos="220" yPos="120" target="e2" targetPath="4">button_no.png</option>
+      <path xPos="120" yPos="-130">path_godsfavoryou.png</path>
+    </content>
+  </node>
+  <node description="q6" type="QUESTION" xPos="505" yPos="995">
+    <content>
+      <question xPos="0" yPos="0">text_swiftoffoot.png</question>
+      <option xPos="185" yPos="105" target="e3">button_yes.png</option>
+      <option xPos="30" yPos="105" target="e2" targetPath="3">button_no.png</option>
+      <path xPos="210" yPos="5" option="1">path_swift_from_carenot.png</path>
+      <path xPos="10" yPos="30" option="2">path_swift_from_isyouraim.png</path>
+      <path xPos="145" yPos="80" option="3">path_swift_from_madness.png</path>
+      <path xPos="-152" yPos="-40" option="4">path_swift_from_manyinjuries.png</path>
+      <path xPos="20" yPos="-30" option="5">path_swift_from_stick.png</path>
+    </content>
+  </node>
+  <node description="q7" type="QUESTION" xPos="310" yPos="1480">
+    <content>
+      <question xPos="0" yPos="0">text_instructioninaludus.png</question>
+      <option xPos="55" yPos="110" target="q14" targetPath="1">button_yes.png</option>
+      <option xPos="280" yPos="110" target="q8" targetPath="1">button_no.png</option>
+      <image xPos="130" yPos="-100">graphic_3.png</image>
+      <path xPos="380" yPos="-850" option="1">path_ludus_from_bondage.png</path>
+      <path xPos="400" yPos="-650" option="2">path_ludus_from_rebellion.png</path>
+    </content>
+  </node>
+  <node description="q8" type="QUESTION" xPos="230" yPos="1720">
+    <content>
+      <question xPos="0" yPos="0">text_skillsforcombat.png</question>
+      <option xPos="40" yPos="110" target="q14" targetPath="2">button_yes.png</option>
+      <option xPos="210" yPos="110" target="q9">button_no.png</option>
+      <path xPos="200" yPos="-170" option="1">path_skillsforcombat_from_ludus.png</path>
+      <path xPos="260" yPos="70" option="2">path_skillsforcombat_from_madness.png</path>
+    </content>
+  </node>
+  <node description="q9" type="QUESTION" xPos="470" yPos="1940">
+    <content>
+      <question xPos="0" yPos="0">text_madnessseizedmind.png</question>
+      <option xPos="25" yPos="130" target="q6" targetPath="3">button_yes.png</option>
+      <option xPos="180" yPos="130" target="q8" targetPath="2">button_no.png</option>
+      <path xPos="-30" yPos="-120">path_madness.png</path>
+    </content>
+  </node>
+  <node description="q10" type="QUESTION" xPos="80" yPos="2360">
+    <content>
+      <question xPos="0" yPos="0">text_militarystrategy.png</question>
+      <option xPos="45" yPos="100" target="e4">button_yes.png</option>
+      <option xPos="160" yPos="100" target="e5" targetPath="1">button_biceps.png</option>
+      <path xPos="-50" yPos="-280">path_militarystrategy.png</path>
+    </content>
+  </node>
+  <node description="q11" type="QUESTION" xPos="300" yPos="2860">
+    <content>
+      <question xPos="0" yPos="0">text_isyouraim.png</question>
+      <option xPos="170" yPos="105" target="q6" targetPath="2">button_yes.png</option>
+      <option xPos="35" yPos="110" target="e5" targetPath="2">button_no.png</option>
+      <image xPos="230" yPos="90">graphic_7.png</image>
+      <path xPos="50" yPos="-100">path_isyouraim.png</path>
+    </content>
+  </node>
+  <node description="q12" type="QUESTION" xPos="470" yPos="2220">
+    <content>
+      <question xPos="0" yPos="0">text_bloodwillbeshed.png</question>
+      <option xPos="0" yPos="120" target="q13">button_istandready.png</option>
+      <option xPos="150" yPos="115" target="q6" targetPath="1">button_icarenot.png</option>
+      <path xPos="-130" yPos="-35">path_bloodwillbeshed.png</path>
+    </content>
+  </node>
+  <node description="q13" type="QUESTION" xPos="390" yPos="2580">
+    <content>
+      <question xPos="0" yPos="0">text_rebelneedsweapon.png</question>
+      <option xPos="60" yPos="100" target="e5" targetPath="3">button_swordandshield.png</option>
+      <option xPos="70" yPos="140" target="q6" targetPath="5">button_sharpenedstick.png</option>
+      <option xPos="60" yPos="180" target="q11">button_bowandarrow.png</option>
+      <image xPos="90" yPos="-30">graphic_5.png</image>
+      <path xPos="30" yPos="-210">path_rebelwarrior.png</path>
+    </content>
+  </node>
+  <node description="q14" type="QUESTION" xPos="30" yPos="1950">
+    <content>
+      <question xPos="0" yPos="0">text_physique.png</question>
+      <option xPos="100" yPos="130" target="q10">button_jupiterhimself.png</option>
+      <option xPos="140" yPos="180" target="q6" targetPath="4">button_manyinjuries.png</option>
+      <option xPos="150" yPos="240" target="q12">button_iamslight.png</option>
+      <image xPos="50" yPos="-150">graphic_4.png</image>
+      <path xPos="40" yPos="-390" option="1">path_physique_from_ludus.png</path>
+      <path xPos="190" yPos="-160" option="2">path_physique_from_skills.png</path>
+    </content>
+  </node>
+  <!-- MULTIPLE CHOICE QUESTIONS -->
+  <node description="o1" type="OPTIONS" xPos="190" yPos="570">
+    <content>
+      <option xPos="5" yPos="0" target="q3" targetPath="2">button_iserverome.png</option>
+      <option xPos="40" yPos="60" target="q4" targetPath="1">button_citizenofrome.png</option>
+      <option xPos="0" yPos="110" target="e2" targetPath="1">button_swelltheranks.png</option>
+      <path xPos="110" yPos="-160">path_iserverome.png</path>
+    </content>
+  </node>
+  <node description="o2" type="OPTIONS" xPos="530" yPos="540">
+    <content>
+      <option xPos="20" yPos="0" target="q4" targetPath="2">button_slavetotherepublic.png</option>
+      <option xPos="0" yPos="60" target="q7" targetPath="1">button_escapedbondage.png</option>
+      <image xPos="-30" yPos="-170">graphic_1.png</image>
+      <path xPos="-40" yPos="-320">path_slavetotherepublic.png</path>
+    </content>
+  </node>
+  <!-- ENDINGS -->
+  <node description="e1" type="ENDING" xPos="40" yPos="1460">
+    <content>
+      <ending xPos="0" yPos="0">ending_icon.png</ending>
+      <endingImage>ending_1_img.jpg</endingImage>
+      <path xPos="0" yPos="-600" option="1">path_ending1_from_arrogancerival.png</path>
+      <path xPos="0" yPos="-380" option="2">path_ending1_from_greatluck.png</path>
+    </content>
+  </node>
+  <node description="e2" type="ENDING" xPos="200" yPos="1260">
+    <content>
+      <ending xPos="0" yPos="0">ending_icon.png</ending>
+      <endingImage>ending_2_img.jpg</endingImage>
+      <path xPos="60" yPos="-560" option="1">path_ending2_from_army.png</path>
+      <path xPos="60" yPos="-400" option="2">path_ending2_from_rebellion.png</path>
+      <path xPos="65" yPos="-190" option="3">path_ending2_from_swift.png</path>
+      <path xPos="95" yPos="-130" option="4">path_ending2_from_luck.png</path>
+    </content>
+  </node>
+  <node description="e3" type="ENDING" xPos="550" yPos="1270">
+    <content>
+      <ending xPos="0" yPos="0">ending_icon.png</ending>
+      <endingImage>ending_3_img.jpg</endingImage>
+      <path xPos="70" yPos="-200">path_ending3.png</path>
+    </content>
+  </node>
+  <node description="e4" type="ENDING" xPos="60" yPos="2740">
+    <content>
+      <ending xPos="0" yPos="0">ending_icon.png</ending>
+      <endingImage>ending_4_img.jpg</endingImage>
+      <path xPos="40" yPos="-280">path_ending4.png</path>
+    </content>
+  </node>
+  <node description="e5" type="ENDING" xPos="210" yPos="3100">
+    <content>
+      <ending xPos="0" yPos="0">ending_icon.png</ending>
+      <endingImage>ending_5_img.jpg</endingImage>
+      <image xPos="-140" yPos="-130">graphic_6.png</image>
+      <path xPos="20" yPos="-660" option="1">path_ending5_from_biceps.png</path>
+      <path xPos="90" yPos="-190" option="2">path_ending5_from_rockbeneath.png</path>
+      <path xPos="40" yPos="-430" option="3">path_ending5_from_swordshield.png</path>
+    </content>
+  </node>
+</assets>
