@@ -16,8 +16,8 @@ var UTIL = UTIL || {};
 		}
 		
 		function trackEvent(category, action, detail) {
-			ga('_trackEvent', category, action, detail);
-			console.log('Tracked: '+category, action, detail);
+			ga('send', 'event', category, action, detail);
+			//console.log('Tracked: '+category, action, detail);
 		}
 		
 		return {
